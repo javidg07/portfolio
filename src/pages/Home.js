@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 import particles from '../const/about_particle';
 import styled from 'styled-components';
 import ContactBanner from '../components/ContactBanner';
-import Footer from '../components/Footer';
+
 const HomeStyles = styled.div`
     .particle{
     position:fixed !important;

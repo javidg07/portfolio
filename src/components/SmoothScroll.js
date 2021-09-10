@@ -11,7 +11,7 @@ export default function SmoothScroll({children}) {
      
   }, [pathName])
     return (
-        <Scrollbar ref={ref} dampling=".09"  renderByPixels="true">
+        <Scrollbar ref={ref} dampling=".09">
             {children}
         </Scrollbar>
     );

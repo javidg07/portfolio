@@ -5,7 +5,7 @@ import PText from '../components/PText'
 import about from '../assets/images/hero1.jpg'
 import AboutInfoItem from '../components/AboutInfoItem'
 import ContactBanner from '../components/ContactBanner'
-import Footer from '../components/Footer'
+
 import Animate from 'react-smooth/lib/Animate'
 import Particles from 'react-particles-js';
 import particles from '../const/about_particle';
