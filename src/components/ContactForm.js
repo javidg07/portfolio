@@ -49,7 +49,8 @@ export default function ContactForm() {
      
     return (
        <>
-          <FormStyles >
+          <FormStyles action="/contact"  name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
               <div className="form-group">
                   <label htmlFor="name">Your Name
                       <input type="text" id="name" name="name" value={name} onChange={e=>setName(e.target.value) } noValidate/>
