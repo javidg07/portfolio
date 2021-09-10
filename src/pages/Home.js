@@ -4,8 +4,8 @@ import HeroSelection from '../components/HeroSelection';
 import ProjectSection from '../components/ProjectSection';
 import ServiceSection from '../components/ServiceSection';
 import Animate from 'react-smooth';
-import Particles from 'react-particles-js';
-import particles from '../const/about_particle';
+// import Particles from 'react-particles-js';
+// import particles from '../const/about_particle';
 import styled from 'styled-components';
 import ContactBanner from '../components/ContactBanner';
 
@@ -24,9 +24,9 @@ const HomeStyles = styled.div`
      return ( 
         <HomeStyles>
     <Animate to="1" from="0" attributeName="opacity">
-    <Particles
+    {/* <Particles
           params={particles}
-         className="particle" />
+         className="particle" /> */}
            <HeroSelection/>
            <AboutSecion/>
            <ServiceSection/>
