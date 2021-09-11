@@ -26,10 +26,15 @@ margin-top:2rem;
       }
   }
 `
-export default function Button({btnLink,btnText="Button",outline="no"}) {
+export default function Button({btnLink,btnText="Button",outline="no",target=""}) {
+  var element ;
+  if(target.length > 0)element  =  <Link className='button' to={btnLink} target={target}  download > {btnText}</Link>
+   else element  = <Link className='button' to={btnLink} > {btnText}</Link>
+
     return (
         <ButtonStyle outline={outline} className="button_wrapper">
-            <Link className='button' to={btnLink} > {btnText}</Link>
+          
+           {element}
         </ButtonStyle>
     )
 }

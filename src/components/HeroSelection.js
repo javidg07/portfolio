@@ -30,7 +30,7 @@ const HeroStyles = styled.div`
         font-size: 2rem;
         margin-bottom: -4.2rem;
         .half-color {
-              position:;
+             
               position:relative;
               font-size:7rem;
               display:inline-block;
@@ -123,6 +123,7 @@ const HeroStyles = styled.div`
   
      
      @media only screen and (max-width:1036px){
+      padding:10rem 0 0 0  ;
       .social_scroll,.social_indicator{
         p{
           color:black;
@@ -161,7 +162,7 @@ const HeroStyles = styled.div`
       }
       .social{
         left:0px;
-        bottom:9%;
+        bottom:5%;
         width:20px;
         .social_indicator{
             width:28px;
@@ -174,6 +175,8 @@ const HeroStyles = styled.div`
             }
         }
         .social_text{
+          position: relative;
+          left:.5rem;
           ul{
             li{
               a{

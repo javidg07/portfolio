@@ -72,7 +72,7 @@ export default function Footer() {
               <div className="footer_col3">
               <FooterCol  heading="Contact Info"
               links={ [
-                    { title:"Mobile",path:"mob:+918056092750"},
+                    { title:"+918056092750",path:"tel:+918056092750"},
                     { title:"javidg07@gmail.com",path:"mailTo:javidg07"},
                   ]}
 
@@ -82,9 +82,9 @@ export default function Footer() {
               <FooterCol
               heading="Social Links"
               links={ [
-                    { title:"Facebook",path:"http://facebook.com"},
-                    { title:"Linkedin",path:"http://Linkedin.com"},  
-                    { title:"Instagram",path:"http://instagram.com"},
+                    { title:"Facebook",path:"https://facebook.com"},
+                    { title:"Linkedin",path:"https://Linkedin.com"},  
+                    { title:"Instagram",path:"https://instagram.com"},
                   ]}
               />
               </div>

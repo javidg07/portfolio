@@ -7,8 +7,8 @@ import AboutInfoItem from '../components/AboutInfoItem'
 import ContactBanner from '../components/ContactBanner'
 
 import Animate from 'react-smooth/lib/Animate'
-// import Particles from 'react-particles-js';
-// import particles from '../const/about_particle';
+import Particles from 'react-particles-js';
+import particles from '../const/about_particle';
  const AboutStyles = styled.div`
   padding-top: 20rem;
   
@@ -94,14 +94,14 @@ export default function About() {
     return (
         <AboutStyles>
               <Animate to="1" from="0" attributeName="opacity">
-          {/* <Particles
+          <Particles
           params={particles}
-         className="particle" /> */}
+         className="particle" />
            <div className="container">
                <div className="top-section">
                    <div className="left">
                        <p className="about_sub_heading">
-                           wqafef <span>wefew</span>
+                           Hi, am <span>Javid</span>
                        </p>
                        <h2 className="about_heading">
                            UI Developer
@@ -113,7 +113,7 @@ export default function About() {
                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci voluptate officiis magni incidunt, ullam non rerum repudiandae possimus reprehenderit ut qui. Debitis nam aliquam obcaecati nostrum maiores dolor sed!
                            </PText>
                        </div>
-                       <Button outline="yes" btnText ="Download CV" btnLink="/"/>
+                       <Button outline="yes" btnText ="Download CV" btnLink="/files/javid_basha.pdf" target="/blank" />
                    </div>
                    <div className="right">
                    <img src={about} alt="" />
