@@ -7,8 +7,8 @@ import AboutInfoItem from '../components/AboutInfoItem'
 import ContactBanner from '../components/ContactBanner'
 
 import Animate from 'react-smooth/lib/Animate'
-import Particles from 'react-particles-js';
-import particles from '../const/about_particle';
+// import Particles from 'react-particles-js';
+// import particles from '../const/about_particle';
  const AboutStyles = styled.div`
   padding-top: 20rem;
   
@@ -94,9 +94,9 @@ export default function About() {
     return (
         <AboutStyles>
               <Animate to="1" from="0" attributeName="opacity">
-          <Particles
+          {/* <Particles
           params={particles}
-         className="particle" />
+         className="particle" /> */}
            <div className="container">
                <div className="top-section">
                    <div className="left">
