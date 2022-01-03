@@ -17,7 +17,7 @@ const projects = [
     id: uuidv4(),
     name: 'Renault',
     desc:
-      'SIMAP is a global quality tool to check conformity of the vehicle. Scope of the application is getting extended from Assembly to Power train [Engine module].Samples taken by Robot or manually of each characteristic for every interval of time    uploads into tool to generate different types of reports based on the profile and provided input. It allows users to upload part image and assign the characteristics to each part of the vehicle and visualize characteristics assigned in a single view.x Samples taken by Robot or manually of each characteristic for every interval of time  uploads into tool to generate different types of reports based on the profile and provided input. It allows users to upload part image and assign the characteristics to each part of the vehicle and visualize characteristics assigned in a single view.',
+      'SIMAP is a global quality tool to check conformity of the vehicle. Scope of the application is getting extended from Assembly to Power train [Engine module].Samples taken by Robot or manually of each characteristic for every interval of time uploads into tool to generate different types of reports.',
     img: renault,
   },
   {
