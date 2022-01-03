@@ -2,7 +2,6 @@ import React from 'react'
 import AboutSecion from '../components/AboutSecion';
 import HeroSelection from '../components/HeroSelection';
 import ProjectSection from '../components/ProjectSection';
-import ServiceSection from '../components/ServiceSection';
 import Animate from 'react-smooth';
 // import Particles from 'react-particles-js';
 // import particles from '../const/about_particle';
