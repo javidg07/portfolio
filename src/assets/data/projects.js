@@ -10,35 +10,35 @@ const projects = [
     id: uuidv4(),
     name: 'General Electric',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      'Product life portal is a consolidation and rebuild of 16 applications which is used for GE PGS lifecycle productivity and reliability .Engineering team is responsible for analyzing and modeling the capital parts of the turbine.',
     img: geImg,
   },
   {
     id: uuidv4(),
     name: 'Renault',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'SIMAP is a global quality tool to check conformity of the vehicle. Scope of the application is getting extended from Assembly to Power train [Engine module].Samples taken by Robot or manually of each characteristic for every interval of time    uploads into tool to generate different types of reports based on the profile and provided input. It allows users to upload part image and assign the characteristics to each part of the vehicle and visualize characteristics assigned in a single view.x Samples taken by Robot or manually of each characteristic for every interval of time  uploads into tool to generate different types of reports based on the profile and provided input. It allows users to upload part image and assign the characteristics to each part of the vehicle and visualize characteristics assigned in a single view.',
     img: renault,
   },
   {
     id: uuidv4(),
     name: 'Boeing',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'The world largest aerospace company and leading manufacturer of commercial jetliners defense, space and security system. Developed portal named cactus for creating training manuals for end users.',
     img: boeing,
   },
   {
     id: uuidv4(),
     name: "Beacon",
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+      'The Georgia Department of Behavioural Health and Developmental Disabilities provides treatment and support services to people with mental health challenges and substance use disorders and assists individuals who live with intellectual and developmental disabilities.',
     img: beacon,
   },
   {
     id: uuidv4(),
     name: 'Blue Shield of California',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'Developed a web application which caters as a dashboard for the operations in the team under various Facets towers. A portal to track, manage, view and modify incidents, reports and also provides an automation for report generation and E-mail notification to business.',
     img: bsc,
   },
 ];
