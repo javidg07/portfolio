@@ -29,7 +29,7 @@ const HomeStyles = styled.div`
          className="particle" /> */}
            <HeroSelection/>
            <AboutSecion/>
-           <ServiceSection/>
+        
          
            <ProjectSection/>
            <ContactBanner/>
